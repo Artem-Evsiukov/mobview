@@ -127,6 +127,8 @@ var swiperSlider = function () {
     slidesPerView: 1,
     // centeredSlides: true,
     spaceBetween: 20,
+    observer: true,
+    observeParents: true,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev'
@@ -139,6 +141,8 @@ var swiperSlider = function () {
     slidesPerView: 1,
     // centeredSlides: true,
     spaceBetween: 20,
+    observer: true,
+    observeParents: true,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev'
